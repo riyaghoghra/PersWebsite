@@ -60,6 +60,7 @@ body {
 }
 .centered {text-align: center}
 .mt {margin-top: 50px;}
+.mt1 {margin-top: 10px;}
 .mb {margin-bottom: 50px;}
 .mtb {margin-top: 50px; margin-bottom: 50px;}
 .mtb2 { margin-top: 100px; margin-bottom: 100px;}
@@ -248,12 +249,15 @@ input {
 }
 
 .portfolio {
-	padding:0 !important;
+	padding:20px !important;
 	margin:0 !important;
 	display:block;
 }
 
-
+.portfolio-item {
+	padding:5px !important;
+	margin:3px !important;
+}
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
 .portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
